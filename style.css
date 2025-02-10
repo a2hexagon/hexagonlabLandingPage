@@ -140,7 +140,7 @@ form{
   }
 
   #cash-memo {
-    display: ;
+    display: none;
   }
 
   .cash-memo p {
@@ -151,7 +151,7 @@ form{
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #2ecc71; /* Green color for footer */
+    background-color: #b40749a8; /* Green color for footer */
     color: #fff;
     margin-top: 20px;
   }
