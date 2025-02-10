@@ -179,13 +179,17 @@
         </div>
         <div class="form-group">
           <label>ডেলিভারি চার্জ</label>
-          <div class="checkbox-group">
-            <label>
-              <input type="radio" name="deliveryAddress" id="inSideDhaka" value="70"> ঢাকার ভিতরে-৭০ টাকা
-            </label>
-            <label>
-              <input type="radio" name="deliveryAddress" id="outSideDhaka" value="130"> ঢাকার বাইরে-১৩০ টাকা
-            </label>
+          <div  class="checkbox-group">
+            <div style="display:flex;flex-direction:row;gap:0px;" class="div">
+
+              <label>  
+                <input type="radio" name="deliveryAddress" id="inSideDhaka" value="70"><span>ঢাকার ভিতরে-৭০ টাকা</span> 
+              </label>
+              <label>
+                <input type="radio" name="deliveryAddress" id="outSideDhaka" value="130"><span>ঢাকার বাইরে-১৩০ টাকা</span> 
+              </label>
+            </div>
+            
             <input type="hidden" name="TotalBill" id="totalBill">
           </div>
         </div>

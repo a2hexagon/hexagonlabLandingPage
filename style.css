@@ -125,7 +125,9 @@ form{
     flex-direction: column;
     gap: 10px;
   }
-
+.checkbox-group input{
+  outline: none;
+}
   .checkbox-group label {
     display: flex;
     align-items: center;
@@ -206,3 +208,6 @@ form{
     }
   }
   
+
+
+  /* extra */
