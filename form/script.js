@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Calculate delivery charge
-    const deliveryCharge = selectedCheckbox.value === 'inSideDhaka' ? 70 : 130;
+
+    const deliveryCharge = selectedCheckbox.value === '70' ? 70 : 130;
 
     // Generate cash memo
     const name = document.getElementById('name').value;
