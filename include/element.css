@@ -1,0 +1,15 @@
+.shadow-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #e90dcb;
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.5),
+        -2px -2px 4px rgba(255, 255, 255, 0.5); /* Multiple shadows */
+}
+.shadow-secondary{
+    color: rgb(57, 58, 58);
+font-size: 25px;
+font-weight: 500;
+text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+
+}

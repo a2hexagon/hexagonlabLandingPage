@@ -1,4 +1,7 @@
- /* General Styles */
+form{
+  overflow: hidden;
+}
+/* General Styles */
  body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -202,3 +205,4 @@
       font-size: 0.9rem;
     }
   }
+  
