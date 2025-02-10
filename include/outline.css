@@ -2,16 +2,17 @@
     position: relative;
     max-width: 100%;
     box-sizing: border-box;
-    border: 3px; border-style:dotted;
+    border: 3px;
+    border-style:dotted;
     border-image: linear-gradient(45deg, #05d343, #fad0c4, #fbc2eb, #a6c1ee, #84fab0) 1;
     animation: gradient-border 5s ease infinite;
     -webkit-animation: gradient-border 5s ease infinite;
-    border-radius: 50%;
-     /* Make the border round */  :;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius:80% ;
+    /*Maketheborderround*/
+    -webkit-border-radius:80% ;
+    -moz-border-radius:80% ;
+    -ms-border-radius:80% ;
+    -o-border-radius:80% ;
 }
   
   @keyframes gradient-border {
