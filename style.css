@@ -1,0 +1,204 @@
+ /* General Styles */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #2ecc71; /* Green color for headings */
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Product Section */
+  .superproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .price-box {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .discounted-price {
+    font-size: 1.5rem;
+    color: #e74c3c; /* Red color for discounted price */
+  }
+
+  .regular-price {
+    font-size: 1rem;
+    color: #888;
+  }
+
+  .flexybox {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .youtube iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  /* Why Choose Us Section */
+  .datalayer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .why-choose-us {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+
+  .benefits-list li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* Checkout Section */
+  .checkout-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2ecc71; /* Green color for labels */
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .cash-memo {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  #cash-memo {
+    display: none;
+  }
+
+  .cash-memo p {
+    margin: 5px 0;
+  }
+
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2ecc71; /* Green color for footer */
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+
+    .second {
+      font-size: 1rem;
+    }
+
+    .flexybox {
+      flex-direction: column;
+    }
+
+    .datalayer {
+      flex-direction: column;
+    }
+
+    .checkout-container {
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.8rem;
+    }
+
+    .order-button {
+      width: 100%;
+    }
+
+    .price-box {
+      font-size: 0.9rem;
+    }
+
+    .discounted-price {
+      font-size: 1.2rem;
+    }
+
+    .regular-price {
+      font-size: 0.9rem;
+    }
+  }

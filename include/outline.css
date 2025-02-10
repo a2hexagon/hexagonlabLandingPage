@@ -1,0 +1,29 @@
+.outline-main {
+    position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 5px dotted;
+    border-image: linear-gradient(45deg, #05d343, #fad0c4, #fbc2eb, #a6c1ee, #84fab0) 1;
+    animation: gradient-border 5s ease infinite;
+    -webkit-animation: gradient-border 5s ease infinite;
+    border-radius: 50%; /* Make the border round */
+  }
+  
+  @keyframes gradient-border {
+    0% {
+      border-image-source: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #84fab0);
+    }
+    25% {
+      border-image-source: linear-gradient(45deg, #df09a2, #a6c1ee, #84fab0, #ff9a9e, #fad0c4);
+    }
+    50% {
+      border-image-source: linear-gradient(45deg, #84fab0, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+    }
+    75% {
+      border-image-source: linear-gradient(45deg, #a6c1ee, #84fab0, #ff9a9e, #fad0c4, #fbc2eb);
+    }
+    100% {
+      border-image-source: linear-gradient(45deg, #fad0c4, #fbc2eb, #a6c1ee, #05be49, #ff9a9e);
+    }
+  }
+  
